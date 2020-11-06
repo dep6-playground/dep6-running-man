@@ -12,50 +12,42 @@ body,html{
 
 #img{
     animation-name: hello-css3-animation;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     position: absolute;
     height: 100%;
     width: 10%;
-    transform: translate(50%,0);
 }
+
 
 @keyframes hello-css3-animation {
-    0%{
-        transform: translatex(0%);
-    }
-    10%{
-        transform: translatex(180%);
-    }
-    20%{
-        transform: translatex(360%);
-    }
-    30%{
-        transform: translatex(540%);
-    }
-    40%{
-        transform: translatex(720%);
-    }
-    50%{
-        transform: translatex(900%);
-    }
-    60%{
-        transform: translateX(900%);
-    }
-    70%{
-        transform: translatex(540%);
-    }
-    80%{
-        transform: translatex(360%);
-    }
-    90%{
-        transform: translatex(180%);
-    }
-    100%{
-        transform: translatex(0%);
-    }
 
-
-
-
+    11.11%{
+        transform: translate(225%);
+    }
+    22.22%{
+        transform: translate(450%);
+    }
+    33.33%{
+        transform: translate(675%);
+    }
+    44.44%{
+        transform: translate(900%);
+    }
+    55.55%{
+        transform: translate(900%) rotateY(180deg);
+    }
+    66.66%{
+        transform: translate(675%) rotateY(180deg);
+    }
+    77.77%{
+        transform: translate(450%) rotateY(180deg);
+    }
+    88.88%{
+        transform: translate(225%) rotateY(180deg);
+    }
+    99.99%{
+        transform: translate(0%) rotateY(180deg);
+    }
 }
+
